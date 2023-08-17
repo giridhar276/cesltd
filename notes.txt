@@ -1,4 +1,5 @@
 ** Everything in python in object ***
+** Every object contains methods ***
 
 
 number
@@ -55,6 +56,230 @@ set
 set is UNORDERED collection of UNIQUE elements of the same type.
 
 aset = {10,20,30,30,30,30}
+
+
+
+
+operators
+-----------
+
+
+arithmetic operators :  +  - * % /
+
+relational operators :  <  <= >  >=  == !=
+
+logical operators    :  and  or   not
+
+assignment operators : 
+
+val = 10
+val+=1   or  val= val + 1
+val-=1   or  val = val - 1
+
+Boolean operators
+True
+False
+None
+
+special operators
+---------------------
++
+*
+in         if  '*' in password:
+as
+
+
+
+file handling
+--------------
+
+
+working with flat files( .txt  .conf  .log  .xml  .json  .csv .prop 
+
+
+
+working with third party files ( pdf docx  xlsx  pptx  mp4  mkv .... )
+
+
+
+working with flat files
+--------------------------
+
+modes
+------
+read   -  r
+write  -  w
+append -  a
+
+
+
+opening the file
+-----------------
+syntax:   object = open(filename,mode)
+example:     fr  = open("customers.txt","r")
+             fw  = open("customers.txt","w")
+             case1: If the file is not existing.. file will be created first
+             case2: If the file is already existing .. it overwrites
+
+             fa  = open("customers.txt","a")
+
+
+closing the file
+------------------
+fr.close()
+
+
+different ways of reading the file
+-------------------------------------
+
+
+- read the file using file object         # best option
+-read the file using fobj.readlines()
+- read the file using fobj.read()
+- using csv library                       # best option
+- using pandas library
+
+
+exception handling
+---------------------
+There are 2 types of errors .
+
+- syntax error
+- semantic error or runtime error
+
+
+What is the need of exception handling ?
+- To handle the errors that occurs during runtime.
+- to write better programing
+
+Handling the errors whih occurs during the runtime is known as exception handling
+
+try     ( mandate)
+except  ( mandate)
+else    ( optional keywords)
+finally ( optional keywords)
+raise   ( optional keywords)
+
+
+How to display all the builtin functions ?
+
+In the console
+dir(__builtin__)
+
+
+function | definition(python) | block | submodule | subroutine
+-------------------------------------------------------
+- reusability
+-  define the block once and call it for multiple times.
+-  IN python function body starts with def keyword
+
+different ways of passing arguments
+--------------------------------------
+- fixed arguments
+- default arguments
+- keyword arguments
+- variable length arguments
+
+
+Every OS contains set of processes that are running
+* Every process contains set of system calls
+
+
+
+lambda function | 
+inline function | 
+nameless function
+---------------------------------------
+
+display all existing databases
+----------------------------------
+show databases;
+
+creating your database  ( your private space)
+--------------------------------------------
+create database cesltd;
+show databases ;
+
+access your database
+-----------------------
+use cesltd;
+
+display all tables
+---------------------
+show tables;  ( will be empty)
+
+creating table
+----------------
+create table adultinfo ( workclass varchar(100) , education varchar(100), occupation varchar(100) ) ;
+
+
+inserting records
+-------------------
+insert into adultinfo values('public','btech','engineer');
+insert into adultinfo values('private','Mtech','desginer');
+
+dislay all the recrods
+----------------------
+select * from adultinfo ;
+
+
+
+
+step1:  open the connection
+step2:  define query
+step3:  execute query
+step4:  display output
+step5:  close the connection
+
+
+
+
+
+
+
+
+
+
+
+
+
+OOP
+------
+- reusability
+- define the code once and call it for multiple times.
+
+OOPs principles ( common across all the languages )
+-----------------------------------------------------
+class 
+object
+inheritance
+polymorphism
+- function overloading
+- operator overloading
+encapsulation
+data hiding
+
+
+
+
+class
+-------
+class is like a blueprint of the model
+Every class contains data members and member functions
+
+object
+------
+object is the instance of the class.
+
+self
+-------
+self is the instance of the object.
+
+
+
+
+
+
 
 
 
